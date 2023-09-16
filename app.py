@@ -38,8 +38,9 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("My AI Assistant")
-st.write("ChatGPT APIを使ったチャットボットです。")
+st.title("My AI　Study Mate")
+st.image("chatbot.png")
+st.write("ChatGPT APIを使ってアウトプット習慣をつけよう。")
 
 # メッセージ表示エリア
 if st.session_state["messages"]:
